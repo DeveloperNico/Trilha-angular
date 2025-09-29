@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+}
+
+.container-jogos {
+    display: flex;
+}
+
+input {
+    border: 1px solid #000;
+    width: 450px;
+}

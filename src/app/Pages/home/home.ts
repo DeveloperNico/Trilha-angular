@@ -18,7 +18,7 @@ export class Home {
     },
     {
       nome: 'Clash Royale',
-      image: "https://play-lh.googleusercontent.com/gnSC6s8-6Tjc4uhvDW7nfrSJxpbhllzYhgX8y374N1LYvWBStn2YhozS9XXaz1T_Pi2q"
+      image: "https://assetsio.gnwcdn.com/clash-royale-codes.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp"
     }
   ])
 }
