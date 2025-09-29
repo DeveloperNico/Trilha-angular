@@ -1,0 +1,6 @@
+@for (produto of produtos(); track $index) {
+    <div>
+        <img [src]="produto.image" [alt]="produto.nome" style="width: 300px; height: auto;">
+        <p>{{ produto.nome }}</p>
+    </div>
+}

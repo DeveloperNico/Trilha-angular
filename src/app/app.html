@@ -1,18 +1,3 @@
-<p>Meu nome é: {{ nome() }}</p>
-<img [src]="url" alt="">
-
-<button (click)="dizerOi()">Dizer oi</button>
-
-@if(mostrarOi) {
-  <p>Oi!</p>
-} @else {
-  <P>Adios</P>
-}
-
-<ul>
-  @for (toDo of toDos; track $index) {
-    <li>{{ toDo }} - {{ $index }}</li>
-  }
-</ul>
-
 <app-header></app-header>
+
+<router-outlet></router-outlet>
